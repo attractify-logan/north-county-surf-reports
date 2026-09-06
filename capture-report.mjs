@@ -44,7 +44,7 @@ export function parseReport(transcript, capturedAt) {
   const value = text => /^\d/.test(text) ? Number(text) : numbers.indexOf(text.toLowerCase());
   const ranges = [];
   for (const sentence of transcript.split(/(?<=[.!?])\s+/)) {
-    if (!/\b(?:surf|swell|waves?)\b/i.test(sentence)) continue;
+    if (!/\b(?:surf|swell|waves?)\b/i.test(sentence) || /\btides?\b/i.test(sentence)) continue;
     for (const match of sentence.matchAll(pattern)) {
       const range = [value(match[1]), value(match[2])];
       if (range.every(Number.isFinite) && range[0] >= 0 && range[0] <= range[1] &&

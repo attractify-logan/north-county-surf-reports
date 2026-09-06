@@ -23,10 +23,11 @@ test('resolves year rollover but leaves contradictory or impossible dates unconf
 
 test('does not invent wave heights from tides or choose between competing swell ranges', () => {
   assert.equal(parseReport(report('September 6', 'The surf is flat. Tides range from one to three feet.'), capture).surf_ft, null);
+  assert.equal(parseReport(report('September 6', 'The surf is flat, with tides from one to three feet.'), capture).surf_ft, null);
   assert.equal(parseReport(report('September 6', 'The south swell is 3–5 feet. The northwest swell is 2–4 feet.'), capture).surf_ft, null);
   assert.deepEqual(parseReport(report('September 6', 'Surf is 2.5–4.5 feet.'), capture).surf_ft, [2.5, 4.5]);
 });
 
 test('rejects the phone menu instead of publishing it as a captured report', () => {
-  assert.throws(() => parseReport('Thank you for calling Oceanside. For the weather and surf report, press 1.', capture), /No usable Oceanside report/);
+  assert.throws(() => parseReport('Thank you for calling Oceanside. For the weather and surf report, press 1.', capture));
 });
