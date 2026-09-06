@@ -1,12 +1,12 @@
 {
   "location": "Oceanside",
-  "captured_at": "2026-09-06T14:35:15.000Z",
-  "reported_date": "2026-09-05",
+  "captured_at": "2026-09-06T15:14:42.000Z",
+  "reported_date": "2026-09-06",
   "surf_ft": [
-    3,
-    5
+    5,
+    7
   ],
-  "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Falling Oceanside Surf Report was recorded on Saturday, September 5 at 8AM. Under clear skies, there's a three to five foot South Southwest swell with fair shape. Water temperature is 73 degrees. There's a three mile per hour wind blowing out the North Northwest. Today's tides include a low of 3.2 at 10:05AM, rising to a high of 5.5 at 04:48PM. If you'd like further information on the Oceanside Life Care service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+  "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Falling Oceanside Surf Report was recorded on Sunday, September 6 at 8AM. Under cloudy skies, there's a five to seven foot south southwest swell with poor shape. Water temperature is 73 degrees. There's a 14 mile per hour wind blowing out the Northwest. Today's tides include a low of 2.9 at 11:52AM, rising to a high of 5.9 at 06:03PM. If you'd like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
   "source_phone": "+17604354020",
   "transcription_provider": "Deepgram nova-3",
   "reported_date_year_inferred": true
