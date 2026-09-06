@@ -1,4 +1,4 @@
-name: Daily Oceanside report
+name: Daily regional surf reports
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '24'
       - run: node --test capture-report.test.mjs
-      - name: Capture and transcribe the public hotline
+      - name: Capture and transcribe the public hotlines
         run: node capture-report.mjs
         env:
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
@@ -43,7 +43,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add site/report.json
-          git commit -m 'Update Oceanside surf report'
+          git commit -m 'Update regional surf reports'
           git push
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

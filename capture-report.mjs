@@ -3,16 +3,23 @@ import { dirname } from 'node:path';
 import { setTimeout as sleep } from 'node:timers/promises';
 import { parseArgs } from 'node:util';
 
-const hotline = '+17604354020';
+const hotlines = {
+  oceanside: { location: 'Oceanside', phone: '+17604354020', name: /\bOceanside\b/i, digits: 'WWWWWWWWWW1' },
+  'del-mar': { location: 'Del Mar', phone: '+18582598208', name: /\bDel\s*Mar\b/i },
+};
 const months = 'January February March April May June July August September October November December'.split(' ');
 const weekdays = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ');
 const numbers = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'.split(' ');
+const ordinalDays = 'first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth fourteenth fifteenth sixteenth seventeenth eighteenth nineteenth twentieth twenty-first twenty-second twenty-third twenty-fourth twenty-fifth twenty-sixth twenty-seventh twenty-eighth twenty-ninth thirtieth thirty-first'.split(' ');
 
-export function parseReport(transcript, capturedAt) {
+export function parseReport(sourceID, transcript, capturedAt) {
+  const source = hotlines[sourceID];
+  if (!source) throw new Error('Unknown public report source.');
   const captured = new Date(capturedAt);
   if (!Number.isFinite(captured.getTime()) || typeof transcript !== 'string' || transcript.length > 12000 ||
-      !/Oceanside/i.test(transcript) || !/surf report.{0,20}recorded on/i.test(transcript)) {
-    throw new Error('No usable Oceanside report: the recording may contain only the phone menu.');
+      !source.name.test(transcript) || !/\bsurf(?: and weather)? report\b.{0,30}(?:recorded on|for)\b/i.test(transcript) ||
+      /\bdiscontinued\b/i.test(transcript)) {
+    throw new Error(`No usable ${source.location} report: the recording may contain only the phone menu.`);
   }
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit',
@@ -20,19 +27,20 @@ export function parseReport(transcript, capturedAt) {
   const part = name => parts.find(p => p.type === name).value;
   const captureDay = `${part('year')}-${part('month')}-${part('day')}`;
   const announced = transcript.match(new RegExp(
-    `recorded on\\s+(?:(${weekdays.join('|')}),?\\s+)?(${months.join('|')})\\s+(\\d{1,2})(?:st|nd|rd|th)?(?:,?\\s+(20\\d{2}))?\\b`, 'i',
+    `(?:recorded on|report for)\\s+(?:(${weekdays.join('|')})(?:\\s+(?:morning|afternoon|evening))?,?\\s+)?(${months.join('|')})\\s+(\\d{1,2}|${ordinalDays.join('|').replaceAll('-', '[- ]')})(?:st|nd|rd|th)?(?:,?\\s+(20\\d{2}))?\\b`, 'i',
   ));
   let reportedDate = null;
   if (announced) {
     const [, weekday, month, day, explicitYear] = announced;
     const monthIndex = months.findIndex(m => m.toLowerCase() === month.toLowerCase());
+    const dayNumber = /^\d/.test(day) ? Number(day) : ordinalDays.indexOf(day.toLowerCase().replaceAll(' ', '-')) + 1;
     let year = Number(explicitYear ?? part('year'));
-    let date = new Date(Date.UTC(year, monthIndex, Number(day)));
+    let date = new Date(Date.UTC(year, monthIndex, dayNumber));
     if (!explicitYear && date.toISOString().slice(0, 10) > captureDay) {
-      date = new Date(Date.UTC(--year, monthIndex, Number(day)));
+      date = new Date(Date.UTC(--year, monthIndex, dayNumber));
     }
     const isoDay = date.toISOString().slice(0, 10);
-    if (date.getUTCMonth() === monthIndex && date.getUTCDate() === Number(day) &&
+    if (date.getUTCMonth() === monthIndex && date.getUTCDate() === dayNumber &&
         isoDay <= captureDay && (!weekday || weekdays[date.getUTCDay()].toLowerCase() === weekday.toLowerCase())) {
       reportedDate = isoDay;
     }
@@ -54,14 +62,15 @@ export function parseReport(transcript, capturedAt) {
     }
   }
   return {
-    location: 'Oceanside', captured_at: captured.toISOString(), reported_date: reportedDate,
+    location: source.location, captured_at: captured.toISOString(), reported_date: reportedDate,
     surf_ft: ranges.length === 1 ? ranges[0] : null, transcript,
-    source_phone: hotline, transcription_provider: 'Deepgram nova-3',
+    source_phone: source.phone, transcription_provider: 'Deepgram nova-3',
     reported_date_year_inferred: reportedDate !== null && !announced[4],
   };
 }
 
-async function collect(recordingSID) {
+async function collect(sourceID, recordingSID) {
+  const source = hotlines[sourceID];
   const required = ['TWILIO_ACCOUNT_SID', 'TWILIO_API_KEY_SID', 'TWILIO_API_KEY_SECRET', 'DEEPGRAM_API_KEY'];
   for (const name of required) {
     if (!process.env[name]?.trim()) throw new Error(`Missing ${name}.`);
@@ -90,8 +99,8 @@ async function collect(recordingSID) {
       throw new Error('Exactly one verified outgoing caller ID is required for this personal collector.');
     }
     const call = await (await twilio('Calls.json', {
-      To: hotline, From: callers.outgoing_caller_ids[0].phone_number,
-      SendDigits: 'WWWWWWWWWW1',
+      To: source.phone, From: callers.outgoing_caller_ids[0].phone_number,
+      ...(source.digits ? { SendDigits: source.digits } : {}),
       Twiml: '<Response><Pause length="60"/><Pause length="60"/><Pause length="60"/><Hangup/></Response>',
       Record: 'true', RecordingTrack: 'inbound', Timeout: '20', TimeLimit: '180',
     })).json();
@@ -110,7 +119,7 @@ async function collect(recordingSID) {
     if (!recording) throw new Error('Timed out waiting for the bounded hotline recording.');
   }
   const call = await (await twilio(`Calls/${recording.call_sid}.json`)).json();
-  if (call.to !== hotline || call.direction !== 'outbound-api' || recording.status !== 'completed' ||
+  if (call.to !== source.phone || call.direction !== 'outbound-api' || recording.status !== 'completed' ||
       Number(recording.duration) < 10 || Number(recording.duration) > 185 || recording.channels !== 1) {
     throw new Error('Refusing to publish audio that is not a completed, bounded call to the public hotline.');
   }
@@ -121,19 +130,36 @@ async function collect(recordingSID) {
   });
   if (!response.ok) throw new Error(`Deepgram returned HTTP ${response.status}.`);
   const result = await response.json();
-  return parseReport(result.results?.channels?.[0]?.alternatives?.[0]?.transcript, recording.start_time);
+  return parseReport(sourceID, result.results?.channels?.[0]?.alternatives?.[0]?.transcript, recording.start_time);
 }
 
-// Local: node --env-file=/path/to/managed.env capture-report.mjs [--recording-sid RE...] [--output site/report.json]
+// Local: node --env-file=/path/to/managed.env capture-report.mjs [--source del-mar --recording-sid RE...] [--output site/report.json]
 if (import.meta.main) {
   try {
     const { values } = parseArgs({ options: {
-      'recording-sid': { type: 'string' }, output: { type: 'string', default: 'site/report.json' },
+      source: { type: 'string' }, 'recording-sid': { type: 'string' },
+      output: { type: 'string', default: 'site/report.json' },
     } });
-    const report = await collect(values['recording-sid']);
+    if (values.source && !Object.hasOwn(hotlines, values.source)) throw new Error('Unknown public report source.');
+    if (values['recording-sid'] && !values.source) throw new Error('A recording identifier requires --source.');
+    const sources = values.source ? [values.source] : Object.keys(hotlines);
+    const reports = await Promise.all(sources.map(async sourceID => {
+      try {
+        const report = await collect(sourceID, values['recording-sid']);
+        console.log(`${report.location}: spoken date ${report.reported_date ?? 'unconfirmed'}, wave range ${report.surf_ft?.join('–') ?? 'unparsed'} ft.`);
+        return report;
+      } catch (error) {
+        console.error(`${hotlines[sourceID].location}: ${error.message}`);
+        return {
+          location: hotlines[sourceID].location, source_phone: hotlines[sourceID].phone,
+          captured_at: null, reported_date: null, surf_ft: null, transcript: null, issue: error.message,
+        };
+      }
+    }));
+    if (reports.every(report => report.issue)) throw new Error('No public surf reports could be collected.');
     await mkdir(dirname(values.output), { recursive: true });
-    await writeFile(values.output, JSON.stringify(report, null, 2) + '\n');
-    console.log(`Saved Oceanside report: spoken date ${report.reported_date ?? 'unconfirmed'}, wave range ${report.surf_ft?.join('–') ?? 'unparsed'} ft.`);
+    await writeFile(values.output, JSON.stringify(reports, null, 2) + '\n');
+    console.log(`Saved ${reports.filter(report => !report.issue).length} of ${reports.length} regional reports.`);
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;
