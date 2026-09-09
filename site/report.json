@@ -1,24 +1,24 @@
 [
   {
     "location": "Oceanside",
-    "source_phone": "+17604354020",
-    "captured_at": null,
-    "reported_date": null,
-    "surf_ft": null,
-    "transcript": null,
-    "issue": "No usable Oceanside report: the recording may contain only the phone menu."
-  },
-  {
-    "location": "Del Mar",
-    "captured_at": "2026-09-08T18:50:27.000Z",
+    "captured_at": "2026-09-09T18:44:19.000Z",
     "reported_date": null,
     "surf_ft": [
       4,
       5
     ],
-    "transcript": "Happy Labor Day. This is Delmar surf and weather report for Monday, 09/07/2026. It's about 9AM. Currently, we have cloudy skies. Just one mile visibility. The air temperature is 76. The water is 68. Winds are about five knots out of the north... Northwest. Surf height is four to five feet. Fair form, fourteen second interval, mostly out of the Southwest. Low tide at 12:57PM, 2.4 feet, rising to a high of 6.2 at 07:03PM. Rip current strength is strong. So as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard towers. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
-    "source_phone": "+18582598208",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oversight Surf Report was recorded on Wednesday, September 8 at 08:14AM. Under clear skies, there's a four to five foot south by southwest swell with fair shape. Water temperature is around 71 degrees. There's currently a one mile per hour wind blowing out of the west. Today's tides include a high of 4.9 at 09:06AM, falling to a low of 1.3 at 02:34PM. If you'd like any further information on the Northside Lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": false
+  },
+  {
+    "location": "Del Mar",
+    "source_phone": "+18582598208",
+    "captured_at": null,
+    "reported_date": null,
+    "surf_ft": null,
+    "transcript": null,
+    "issue": "No usable Del Mar report: the recording may contain only the phone menu."
   }
 ]
