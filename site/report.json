@@ -1,22 +1,23 @@
 [
   {
     "location": "Oceanside",
-    "source_phone": "+17604354020",
-    "captured_at": null,
+    "captured_at": "2026-09-17T19:07:25.000Z",
     "reported_date": null,
     "surf_ft": null,
-    "transcript": null,
-    "issue": "No usable Oceanside report: the recording may contain only the phone menu."
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Thursday, 09/17/2026 at 08:20AM. Under cloudy skies, there's a three to four foot South Southwest well with fair shape. Water temperature is 74 degrees. There is a one mile per hour wind blowing out of the Northeast. Today's ties include a high of 4.7 at one zero eight PM, falling to a low of 1.3 at 09:57PM. If you would like further information on the Oceanside Lifeguard service, please call 535-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
+    "source_phone": "+17604354020",
+    "transcription_provider": "Deepgram nova-3",
+    "reported_date_year_inferred": false
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-09-16T18:57:07.000Z",
+    "captured_at": "2026-09-17T19:07:26.000Z",
     "reported_date": null,
     "surf_ft": [
-      1,
+      2,
       3
     ],
-    "transcript": "Good morning. It's Delmar Surf and weather report for Sunday, 09/13/2026 at 08:40AM. Currently, I have overcast skies, mile and a half visibility, air temperature, 70 degrees. Water temperature, 74. Do have a very light breeze out of Southwest about two miles an hour. I have glassy conditions out there still. Today's surf is a little bit down from yesterday, more in the one to three foot range, maybe a rare four foot set, but that's pretty far few and in between. Got fair form out there, ten second interval, little bit of a mixed swell with coming out of the Northwest and Southwest. Today's tides. High tide is 11AM, point six. Low tide tonight, 05:30PM, zero point five. If you wish to swim or bodyboard, please do so from the open lifeguard tower down at 17th Street. Always check-in with lifeguards for current and change occasions. Thank you, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "transcript": "Good morning. This is the Delmar Surf and Weather Report for Thursday, 09/17/2026 at 9AM. Today, we have cloudy skies with five miles of visibility. The air temperature is 67 degrees with the water temperature being 73 degrees. We have three mile per hour wind out of the West, surf height of two to three feet with fair form at a fifteen second interval coming from the West Southwest. Today, the tides are high at 01:06PM of 4.7 feet and low of 1.3 feet at 10:03PM. We currently have moderate rip current strength. If you wish to come swim or boogie board, please do so in front of the open Lepo Tower at 17th Street right in front of the blue flag. Thanks. Have a good day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": false
