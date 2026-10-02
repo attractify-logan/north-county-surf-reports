@@ -1,16 +1,20 @@
 [
   {
     "location": "Oceanside",
+    "captured_at": "2026-10-02T19:59:31.000Z",
+    "reported_date": "2026-10-02",
+    "surf_ft": [
+      2,
+      3
+    ],
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Oceanside surf report was recorded on Friday, October 2 at 8AM. Under clear skies, there's a two to three foot south southwest swell with bear shape. Water temperature is 74 degrees. There is a five mile per hour wind blowing out of the north. Today's tides include a high of 5.4 feet at 01:25PM, falling to a low of 0.3 at 09:53PM. If you would like further information on the other side lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
-    "captured_at": null,
-    "reported_date": null,
-    "surf_ft": null,
-    "transcript": null,
-    "issue": "No usable Oceanside report: the recording may contain only the phone menu."
+    "transcription_provider": "Deepgram nova-3",
+    "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-01T20:23:58.000Z",
+    "captured_at": "2026-10-02T19:59:26.000Z",
     "reported_date": null,
     "surf_ft": null,
     "transcript": "Morning. This is Delmar Life. We're just looking to surf and weather report for Thursday, 10/01/2026. We have overcast foggy skies at three to four mile visibility. Air temp 66 degrees with the water being 72. About five miles an hour wind from the Northwest. Two three foot surf with a fair form with an eleven second interval from the West Southwest. High tide today is at 12:18PM, being a 5.8. The low at 08:15PM is 0.3 with moderate rip curl string... Rip current strength. As always, if you wish to surf for bodyboard, please do so in front of the Lifeguard Tower, 17th Street. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
