@@ -1,25 +1,28 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-02T19:59:31.000Z",
-    "reported_date": "2026-10-02",
+    "captured_at": "2026-10-03T18:44:22.000Z",
+    "reported_date": "2026-10-03",
     "surf_ft": [
       2,
       3
     ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Oceanside surf report was recorded on Friday, October 2 at 8AM. Under clear skies, there's a two to three foot south southwest swell with bear shape. Water temperature is 74 degrees. There is a five mile per hour wind blowing out of the north. Today's tides include a high of 5.4 feet at 01:25PM, falling to a low of 0.3 at 09:53PM. If you would like further information on the other side lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Saturday, October 3 at 08:17AM. Under sunny skies, there's a two to three foot southwest swell with fair shape. Water temperature off the offshore buoy is currently reading 72 degrees Fahrenheit. There's an 11 mile per hour wind blowing out of the East Northeast. Today's tides include a low of 3.3 at 08:11AM, rising to a high of 5.2 at 03:02PM. If you would like further information on the Ochsda Lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-02T19:59:26.000Z",
-    "reported_date": null,
-    "surf_ft": null,
-    "transcript": "Morning. This is Delmar Life. We're just looking to surf and weather report for Thursday, 10/01/2026. We have overcast foggy skies at three to four mile visibility. Air temp 66 degrees with the water being 72. About five miles an hour wind from the Northwest. Two three foot surf with a fair form with an eleven second interval from the West Southwest. High tide today is at 12:18PM, being a 5.8. The low at 08:15PM is 0.3 with moderate rip curl string... Rip current strength. As always, if you wish to surf for bodyboard, please do so in front of the Lifeguard Tower, 17th Street. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "captured_at": "2026-10-03T18:44:22.000Z",
+    "reported_date": "2026-10-03",
+    "surf_ft": [
+      2,
+      3
+    ],
+    "transcript": "Good morning. This is a Delmar surf and weather report for Saturday, October 3. Right before 09:00, we have clear skies, five mile visibility, air temperature is 78, the water is 72, and winds are calm. Surf height is two to three feet with occasional four. Fair form, sixteen second interval out of the West Southwest. High tide this afternoon, 03:02PM, 5.2 feet, dropping to a low of 0.1 at 11:14PM. Rip current strength is moderate. So as always, if you're gonna swim or boogie board, please do so in front of the blue flag, in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
-    "reported_date_year_inferred": false
+    "reported_date_year_inferred": true
   }
 ]
