@@ -1,20 +1,23 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-08T20:43:30.000Z",
-    "reported_date": "2026-10-08",
-    "surf_ft": null,
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Thursday, October 8 at 8AM. Under very cloudy skies, there's a two to three occasional four foot swell from the Southwest with fair shape. Water temperature is 72 degrees. There's currently a two mile wind blowing out of the Northeast. Today's tides include a high of 5.4 feet at 08:28AM falling to a low of not point seven feet at 02:31PM. If you like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "captured_at": "2026-10-09T20:09:35.000Z",
+    "reported_date": "2026-10-09",
+    "surf_ft": [
+      4,
+      7
+    ],
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Friday, October 9 at 8AM. Under cloudy skies, there is a four to seven foot swell from the south with fair shape. Water temperature is 75 degrees. There's a three mile an hour wind blowing out of the North Northeast. Today's tides include a high tide, 5.7 feet, 08:53AM, falling to a low tide of 0.3 feet at 03:11PM. If like you further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-08T20:43:30.000Z",
+    "captured_at": "2026-10-09T20:09:35.000Z",
     "reported_date": "2026-10-06",
     "surf_ft": null,
-    "transcript": "Morning. This is Delmar surf and weather report for Tuesday morning, October sixth. Currently, have partly cloudy skies, five mile visibility. Air temperature is 76. Water is 72. Winds are just two knots out of the Northeast. Certified, two to three feet, piriform, thirteen second interval, predominantly out of the West Southwest. Low tide at 01:02PM is 1.8 feet, rising to a high of 5.5 at 06:56PM. Rip current strength is moderate, but as always, if you're gonna swim or boogie board, please do so in front of the blue flag, in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "transcript": "Good morning. This is Delmar surf and weather report for Tuesday morning, October sixth. Currently, we have partly cloudy skies, five mile visibility. Air temperature is 76. Water is 72. Winds are just two knots out of the Northeast. Certified, two to three feet. Paraform, thirteen second interval, predominantly out of the West Southwest. Low tide at 01:02PM is 1.8 feet, rising to a high of 5.5 at 06:56PM. Rip current strength is moderate, but as always, if you're gonna swim or boogie board, please do so in front of the blue flag, in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
