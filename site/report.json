@@ -1,23 +1,20 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-11T19:36:46.000Z",
-    "reported_date": "2026-10-11",
-    "surf_ft": [
-      4,
-      6
-    ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside Surf Report was recorded on Sunday, October 11 at 08:15AM. Under rainy skies, there is a four to six foot south southwest swell with very poor shape. Water temperature is 74 degrees. There is a 32 mile per hour wind blowing out of the west. Today's tides include a high of 6.0 at 09:43AM falling to a low of negative 0.1 at 04:27PM. If you would like further information on the Oceanside Lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
+    "captured_at": "2026-10-12T22:31:37.000Z",
+    "reported_date": null,
+    "surf_ft": null,
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The Falling Oceanside surf report was recorded on Columbus Day, Monday the twelfth at 08:10AM. Under gray cloudy stormy skies, three to five foot south... Southwest swell with extremely poor shape. Water temp, 74 degrees. There's 12 mile per hour wind wind on the West Southwest, and today's ties include a high of 5.9 feet at 10:09AM falling to a low of negative point one feet at 05:07PM. If you'd like any further information on the Air Shuttle lifeguard service, please dial (760) 435-4018. Additionally, the county of San Diego Department of Environmental Health has issued a general advisory after a rainfall of more than point two inches in a twenty four hour period. Department of Environmental Health advises that activities such as swimming, wading, surfing, and diving should be avoided for the next seventy two hours. Most recent significant rainfall occurred yesterday. For nation... For more information about that, please contact the County of San Diego Health Beach and Bay Advisory at (619) 338-2073. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
-    "reported_date_year_inferred": true
+    "reported_date_year_inferred": false
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-11T19:36:47.000Z",
+    "captured_at": "2026-10-12T22:31:38.000Z",
     "reported_date": "2026-10-06",
     "surf_ft": null,
-    "transcript": "Good morning. This is Delmar surf and weather report for Tuesday morning, October sixth. Currently, we have partly cloudy skies, five mile visibility. Air temperature is 76. Water is 72. Winds are just two knots out of the Northeast. Certified, two to three feet, piriform, thirteen second interval, predominantly out of the West Southwest. Low tide at 01:02PM is 1.8 feet, rising to a high of 5.5 at 06:56PM. Rip current strength is moderate, but as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "transcript": "Morning. This is Delmar surf and weather report for Tuesday morning, October sixth. Currently, we have partly cloudy skies, five mile visibility. Air temperature is 76. Water is 72. Winds are just two knots out of the Northeast. Certified, two to three feet, piriform, thirteen second interval, predominantly out of the West Southwest. Low tide at 01:02PM is 1.8 feet, rising to a high of 5.5 at 06:56PM. Rip current strength is moderate, but as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
