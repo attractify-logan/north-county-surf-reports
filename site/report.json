@@ -1,23 +1,26 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-13T20:45:17.000Z",
-    "reported_date": null,
+    "captured_at": "2026-10-14T19:31:05.000Z",
+    "reported_date": "2026-10-14",
     "surf_ft": [
       4,
-      6
+      5
     ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Following Oceanside Surf Report was recorded on Tuesday, the thirteenth at 08:15AM. Under blue skies, we have four to six foot south southwest swell with fair to good shape. Water temp, 71 degrees. Five mile power wind blowing blowing out of the East Northeast. Today's tide include a high of 5.7 feet at 10:34AM. That's gonna fall to a low of 0.1 feet at 05:47PM. If you'd like any further information regarding the other side lifeguard service, please dial (760) 435-4018. Additionally, County of San Diego Department of Environmental Health has issued a general advisory after rainfall more than point two inches in a twenty four hour period. Department of Environmental Health advised that activities such as swimming, wading, surfing, and diving should be avoided for the next seventy two hours. Most recent rainfall occurred on Monday. For more information, please contact the County of San Diego Health Beach and Bay Advisory at (619) 338-2073. No one is available to take your call. Thank you for calling. Good...",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside Surf Report was recorded on Wednesday, October 14 at 08:15AM. Under blue skies, there's four to five foot south southwest swell with fair to good shape. Water temp, 71 degrees. There's 10 mile per hour wind blowing in the East Northeast, and today's tides include a high of 5.5 feet at 11:01AM falling to a low of 0.4 feet at 06:33PM. If you would like any further information regarding the Oceanside Lifeguard service, please dial (760) 435-4018. Additionally, the county of San Diego Department of Environmental Health has issued a general advisory after a rainfall more than point two inches in a twenty four hour period. Department of Environmental Health advises that activities such as swimming, wading, surfing, and diving should be avoided for the next seventy two hours, and the most recent significant rainfall occurred on the twelfth. For more information regarding that, please contact the County of San Diego Health Beach and Bay Advisory at (619) 338-2073. No one is available to take your call. Thank you for calling. Good...",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
-    "reported_date_year_inferred": false
+    "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-13T20:45:17.000Z",
-    "reported_date": "2026-10-06",
-    "surf_ft": null,
-    "transcript": "Morning. This is Delmar surf and weather report for Tuesday morning, October sixth. Currently, have partly cloudy skies, five mile visibility. Air temperature is 76. Water is 72. Winds are just two knots out of the Northeast. Certified, two to three feet, piriform, thirteen second interval, predominantly out of the West Southwest. Low tide at 01:02PM is 1.8 feet, rising to a high of 5.5 at 06:56PM. Rip current strength is moderate, but as always, if you're gonna swim or boogie board, please do so in front of the blue flag, in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "captured_at": "2026-10-14T19:30:59.000Z",
+    "reported_date": "2026-10-14",
+    "surf_ft": [
+      4,
+      5
+    ],
+    "transcript": "Good morning. This is the Delmar surf and weather report for Wednesday, October 14. It's about 8AM. Currently, have clear skies, five mile visibility. Air temperature is 60. The water is 71. Winds are five miles per hour offshore with the surf height of four to five feet, occasional six. Fair form, fifteen second interval out of the Southwest. High tide this morning is 10:59AM, 5.5 feet, dropping to a low of 0.5 at 06:30PM. Rip current strengths are strong. So as always, if you're gonna swim a boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
