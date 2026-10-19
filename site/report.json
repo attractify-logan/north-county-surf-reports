@@ -1,22 +1,23 @@
 [
   {
     "location": "Oceanside",
-    "source_phone": "+17604354020",
-    "captured_at": null,
-    "reported_date": null,
+    "captured_at": "2026-10-19T20:38:18.000Z",
+    "reported_date": "2026-10-19",
     "surf_ft": null,
-    "transcript": null,
-    "issue": "No usable Oceanside report: the recording may contain only the phone menu."
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Monday, October 19 at 8AM. Under clear skies, there's a 4.9 south southwest swell with fair shape. Water temperature is 73 degrees, and there's a four mile per hour wind blowing out of the Northeast. Today's tides include a low 3.1 at 11:31AM, rising to a high 4.1 at 03:13PM. If you would like any further information on the Oceanside Lifeguard services, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
+    "source_phone": "+17604354020",
+    "transcription_provider": "Deepgram nova-3",
+    "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-18T18:12:34.000Z",
-    "reported_date": "2026-10-14",
+    "captured_at": "2026-10-19T20:38:18.000Z",
+    "reported_date": "2026-10-19",
     "surf_ft": [
-      4,
-      5
+      2,
+      4
     ],
-    "transcript": "Good morning. This is the Delmar surf and weather report for Wednesday, October 14, about 8AM. Currently, we have clear skies, five mile visibility. Air temperature is 60. The water is 71. Winds are five miles per hour offshore with the surf height of four to five feet, occasional six. Fair form, fifteen second interval out of the Southwest. High tide this morning is 10:59AM, 5.5 feet, dropping to a low of 0.5 at 06:30PM. Rip current strengths are strong. So as always, if you're gonna swim a boogie board, please do so in front of the blue flag, in front of the open lifeguard tower. Thanks, and have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "transcript": "Good morning. This is Delmar Surf and Weather Report for Monday, October 19. It's about 9AM. Currently, have clear skies, five mile visibility. Air temperature is 69. Water is 71. Winds are calm. Surf height, two to four feet, fair form, fifteen second interval out of the Southwest. Load time this morning, 11:31AM, 3.1 feet, rising to a high of 4.2 at 04:49PM. The rip current strength is moderate. So as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks. Have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
