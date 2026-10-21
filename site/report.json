@@ -1,17 +1,17 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-20T19:24:19.000Z",
-    "reported_date": "2025-10-21",
+    "captured_at": "2026-10-21T19:24:34.000Z",
+    "reported_date": "2026-10-21",
     "surf_ft": null,
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Tuesday, October 21 at 9AM. Under very clear skies, we've got a 46 foot south by southwest swell with fair shape. Water temperature is a whole 72 degrees and a three mile per hour wind blowing out of the east. Today's tide include a low of 2.5 at 12:24 this afternoon, rising to a high of 4.4 at 05:52 tonight. If you like any further information on the Oceanside Lifeguard service, the tides, the swell, the surf, please dial (760) 435-4018. Thank you. Have a great day. No one is available to take your call. Thank you for calling. Good",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following site surf report is being recorded on Wednesday, October 21 at 8AM. We're under clear skies. There's a 3.7 foot south southwest swell with fair shape warning. Water temperature is 73 degrees. There's a four mile per hour wind blowing out east. Today's tides include a high of 4.5 at 07:16AM falling to a low of 1.8 at 01:03PM. If you'd like further information on the other side of lifeguard services, go ahead and give us a call. (760) 435-4018. Thank you. Have a safe one. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-10-20T19:24:21.000Z",
+    "captured_at": "2026-10-21T19:24:35.000Z",
     "reported_date": "2026-10-19",
     "surf_ft": [
       2,
