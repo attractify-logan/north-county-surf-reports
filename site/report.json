@@ -1,13 +1,13 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-26T20:38:11.000Z",
+    "captured_at": "2026-10-27T20:08:43.000Z",
     "reported_date": null,
     "surf_ft": [
-      2,
-      3
+      3,
+      4
     ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Falling Oceans Head Surf Report was recorded on Monday, the twenty sixth at 08:30AM. Under blue skies, two to three foot south southwest swell with fair shape, water temp seventy thirty... 73 degrees. There's five mile per hour wind blowing out of the east, and today's highs... Tides include a high of 6.5 feet at 09:14AM that's falling to a low of negative point nine at 04:12PM. If you'd like any further information regarding the Oceanside Life Guard service, please dial (760) 435-4018. Thank you, and have a great day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Following Oceanside Surf Report was recorded on Tuesday, the twenty seventh at 08:05AM. Under blue skies, three to four foot south southwest swell with fair shape. Water temp, 74 degrees. There's six mile power wind blowing at the East Northeast. Today's tides include a high of 6.6 feet at 09:48AM falling to a low of negative one at 04:59PM. If you'd like any further information regarding the Oshai Lifeguard service, please dial (760) 435-4018. Thank you. Have a safe day. No one is available to take your call. Thank you for calling. Good",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": false
