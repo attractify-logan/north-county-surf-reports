@@ -1,16 +1,13 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-27T20:08:43.000Z",
-    "reported_date": null,
-    "surf_ft": [
-      3,
-      4
-    ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. Following Oceanside Surf Report was recorded on Tuesday, the twenty seventh at 08:05AM. Under blue skies, three to four foot south southwest swell with fair shape. Water temp, 74 degrees. There's six mile power wind blowing at the East Northeast. Today's tides include a high of 6.6 feet at 09:48AM falling to a low of negative one at 04:59PM. If you'd like any further information regarding the Oshai Lifeguard service, please dial (760) 435-4018. Thank you. Have a safe day. No one is available to take your call. Thank you for calling. Good",
+    "captured_at": "2026-10-28T20:23:57.000Z",
+    "reported_date": "2026-10-28",
+    "surf_ft": null,
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Wednesday, October 28 at 07:53AM. Under sunny skies, there's a three to four foot south... Southwest swell with fair shape. Water temperature off the offshore buoy is currently reading 72 degrees Fahrenheit. There is a six mile per hour wind blowing out of the East Northeast. Today's ties include a high of 6.6 at 10:26AM, point to a low of negative 0.8 at 05:51PM. If you would like further information on the Oceanside Lifeguard service, please call (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
-    "reported_date_year_inferred": false
+    "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
