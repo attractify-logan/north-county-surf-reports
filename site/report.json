@@ -1,10 +1,13 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-10-28T20:23:57.000Z",
-    "reported_date": "2026-10-28",
-    "surf_ft": null,
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Wednesday, October 28 at 07:53AM. Under sunny skies, there's a three to four foot south... Southwest swell with fair shape. Water temperature off the offshore buoy is currently reading 72 degrees Fahrenheit. There is a six mile per hour wind blowing out of the East Northeast. Today's ties include a high of 6.6 at 10:26AM, point to a low of negative 0.8 at 05:51PM. If you would like further information on the Oceanside Lifeguard service, please call (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "captured_at": "2026-10-29T20:22:23.000Z",
+    "reported_date": "2026-10-29",
+    "surf_ft": [
+      3,
+      4
+    ],
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside Surf Report was recorded on Thursday, October 29 at 8AM. Under cloudy skies, there's a three to four foot southwest swell with fair shape. Water temperature is 73 degrees. There's a four mile per hour wind blowing the East Northeast. Today's tides include a high of 6.3 feet at 11:12AM falling to a low of negative 0.7 feet at 06:53PM. If you would like any further information on the Oceanside Lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
