@@ -1,10 +1,13 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-11-07T20:20:27.000Z",
-    "reported_date": "2026-11-07",
-    "surf_ft": null,
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Saturday, November 7 at 8AM. Under clear skies, there is a three to four foot, occasional five from the Southwest with fair shape. Currently, little swamped with a high tide. Water temperature is 72 degrees. There's a five mile hour wind blowing out of the Northeast. Today's tides include a high of 6.0 feet at 07:16AM falling to a low of negative 0.2 feet at 02:06PM. If you'd like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good",
+    "captured_at": "2026-11-08T20:38:21.000Z",
+    "reported_date": "2026-11-08",
+    "surf_ft": [
+      2,
+      4
+    ],
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside surf report was recorded on Sunday, November 8 at 8AM. Under clear skies, there's a two to four foot west southwest swell with fair shape. Water temperature is 75 degrees. There is a four mile per hour wind blowing out of the Northeast. Today's tides include a high of 6.2 feet at 07:40AM falling to a low of negative point five feet at 02:43PM. If you would like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Good...",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
