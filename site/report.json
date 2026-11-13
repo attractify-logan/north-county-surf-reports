@@ -1,28 +1,24 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-11-12T22:19:43.000Z",
-    "reported_date": "2026-11-12",
+    "captured_at": "2026-11-13T22:02:05.000Z",
+    "reported_date": "2026-11-13",
     "surf_ft": [
-      4,
-      5
+      2,
+      3
     ],
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The Falling Oceanside Surf Report was recorded on Thursday, November 12 at 8AM. Under clear skies, there's a four to five foot swell from the west with fairly good shape. Water temperature is 74 degrees. There is a four mile an hour wind blowing out of the east. Today's tides include a high tide of 5.5 feet at 09:31AM falling to a low of negative 0.2 feet at 04:32PM. If you'd like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The Falling Oceanside Surf Report was recorded on Friday, November 13 at 8AM. Under partly cloudy skies, there's a two to three foot west by southwest swell with poor shape. Water temperature is around 74 degrees. There's currently an eight mile per hour wind blowing out of the Northeast. Today's tides include a high of 5.2 at 10:04AM, falling to a low of 0.3 at 06:05PM. If you'd like any further information on your site lifeguard service, please dial (760) 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-11-12T22:19:44.000Z",
-    "reported_date": "2026-11-09",
-    "surf_ft": [
-      4,
-      6
-    ],
-    "transcript": "Good morning. This is Delmar, surf and weather report for Monday, November 9 at about 9AM. Currently, we have sunny skies, four mile visibility. Air temperature is 72. The water is 75. Winds are calm. Surf is four to six feet. Fair form out of the West Northwest at thirteen second interval and out of the West Southwest at a sixteen second interval. High tide this morning at 8AM was 6.1 feet, dropping to a low of negative 0.5 at 03:20PM. Rip current strength is strong. So as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks. Have a great day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
-    "transcription_provider": "Deepgram nova-3",
-    "reported_date_year_inferred": true
+    "captured_at": null,
+    "reported_date": null,
+    "surf_ft": null,
+    "transcript": null,
+    "issue": "No usable Del Mar report: the recording may contain only the phone menu."
   }
 ]
