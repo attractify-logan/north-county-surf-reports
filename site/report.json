@@ -1,23 +1,26 @@
 [
   {
     "location": "Oceanside",
-    "captured_at": "2026-11-18T22:58:52.000Z",
-    "reported_date": "2026-11-18",
-    "surf_ft": null,
-    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The following Oceanside Surf Report was recorded on Wednesday, November 18 at 8AM. Under partly cloudy skies, there's a three foot swell from the west with fair shape. Water temperature is 73 degrees. There's a seven mile wind blowing out of the east. Today's tides include a low of 2.4 feet at 10:44AM, rising to a high of 3.7 feet at 03:56PM. If you'd like further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
+    "captured_at": "2026-11-19T23:07:29.000Z",
+    "reported_date": "2026-11-19",
+    "surf_ft": [
+      2,
+      4
+    ],
+    "transcript": "Hello, and thank you for calling the information line for the lifeguard division for the city of Oceanside. Please choose from the following options for our weather and surf report. Please press 1. Good morning. The Falling Oceanside surf report was recorded on Thursday, November 19 at AM. Under cloudy skies, there's a two to four foot swell from the west with poor shape. Water temperature, 73 degrees. There is a six mile an hour wind blowing out of the south. Today's tides include a low of 1.7 feet at 11:33AM, rising to a high of 3.7 feet at 03:56PM. If you'd further information on the Oceanside Lifeguard service, please dial 435-4018. Thank you, and have a safe day. No one is available to take your call. Thank you for calling. Goodbye.",
     "source_phone": "+17604354020",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
   },
   {
     "location": "Del Mar",
-    "captured_at": "2026-11-18T22:58:53.000Z",
+    "captured_at": "2026-11-19T23:07:29.000Z",
     "reported_date": "2026-11-16",
     "surf_ft": [
       5,
       7
     ],
-    "transcript": "Good morning. This is a Delmar surf and weather report for Monday, November 16. It's about 9AM. Currently, have cloudy skies, two mile visibility. Air temperature is 67. The water is 74. Winds, three to five miles per hour out of the West Southwest. Surf height is five to seven feet. Fair form, fifteen second interval out of the West. High tide today at 12:52PM, 4.1 feet, dropping to a low of 0.8 at 9PM. Rip current strength is strong. There's also a high surf advisory and a water quality advisory in effect. And as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks, and have a good day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
+    "transcript": "Good morning. This is a Delmar surf and weather report for Monday, November 16. It's about 9AM. Currently, we have cloudy skies, two mile visibility. Air temperature is 67. The water is 74. Winds, three to five miles per hour out of the West Southwest. Surf height is five to seven feet. Fair form, fifteen second interval out of the West. High tide today at 12:52PM, 4.1 feet, dropping to a low of 0.8 at 9PM. Rip current strength is strong. There's also a high surf advisory and a water quality advisory in effect. And as always, if you're gonna swim or boogie board, please do so in front of the blue flag in front of the open lifeguard tower. Thanks, and have a good day. The voice messaging service has not detected a message. Please start recording your message after the tone. The voice messaging service has not detected a message. Please start recording your message after the tone. This operation cannot be completed at this time. Please hang up and try again later.",
     "source_phone": "+18582598208",
     "transcription_provider": "Deepgram nova-3",
     "reported_date_year_inferred": true
